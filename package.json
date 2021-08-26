@@ -1,7 +1,7 @@
 {
   "name": "avif-images-converter",
   "version": "1.0.0",
-  "description": "Convert images to avif format, with or without lossing quality.",
+  "description": "Convert images from jpg, jpeg, tif, tiff, webp, png, gif, svg to avif format, a new format optimized to be used at web with or without losing quality, using the avif package.",
   "scripts": {
     "convert:50": "npx avif --input='./input/*' --output='./output/' --speed=0 --quality=50 --overwrite --verbose",
     "convert:80": "npx avif --input='./input/*' --output='./output/' --speed=0 --quality=80 --overwrite --verbose",
