@@ -7,8 +7,9 @@
 > 1) Clone this repo;
 > 2) Open a terminal inside the downloaded folder;
 > 3) Run `npm install`;
-> 4) Put the original images at the `input` folder;
-> 5) Run one of the following commands:
+> 4) **Delete the txt files inside the folders;**
+> 5) Put the original images at the `input` folder;
+> 6) Run one of the following commands:
 >   - `npm run convert:50` to convert it to avif format, with a 50% quality;
 >   - `npm run convert:80` to convert it to avif format, with a 80% quality;
 >   - `npm run convert:lossless` to convert it to avif format, without lossing quality.
