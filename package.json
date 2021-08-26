@@ -1,0 +1,16 @@
+{
+  "name": "avif-images-converter",
+  "version": "1.0.0",
+  "description": "Convert images to avif format, with or without lossing quality.",
+  "scripts": {
+    "convert:50": "npx avif --input='./input/*' --output='./output/' --speed=0 --quality=50 --overwrite --verbose",
+    "convert:80": "npx avif --input='./input/*' --output='./output/' --speed=0 --quality=80 --overwrite --verbose",
+    "convert:lossless": "npx avif --input='./input/*' --output='./output/' --speed=0 --lossless --overwrite --verbose"
+  },
+  "keywords": [],
+  "author": "Bernardo Pastorini",
+  "license": "ISC",
+  "dependencies": {
+    "avif": "0.0.4"
+  }
+}
